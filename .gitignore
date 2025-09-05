@@ -1,0 +1,35 @@
+# Build artifacts
+bin/
+obj/
+
+# User-specific
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+# VS Code / Rider / Resharper
+.vscode/
+.idea/
+*.DotSettings
+
+# Visual Studio
+.vs/
+
+# Logs
+*.log
+
+# Packages (restore from NuGet)
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+
+# Publish output
+wwwroot/dist/
+wwwroot/node_modules/
+node_modules/
+
+# Others
+project.lock.json
+project.fragment.lock.json
