@@ -7,13 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestReply", "RequestRepl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{2B7AD16C-782B-49C0-B6F6-EC570CA8A962}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueWorker", "QueueWorker\QueueWorker.csproj", "{5C05BF59-387D-46B8-BE56-CBA53B2C71BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CFAD1218-7AF2-4FB9-9E7D-70F8C1D88443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +23,12 @@ Global
 		{2B7AD16C-782B-49C0-B6F6-EC570CA8A962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B7AD16C-782B-49C0-B6F6-EC570CA8A962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B7AD16C-782B-49C0-B6F6-EC570CA8A962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C05BF59-387D-46B8-BE56-CBA53B2C71BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C05BF59-387D-46B8-BE56-CBA53B2C71BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C05BF59-387D-46B8-BE56-CBA53B2C71BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C05BF59-387D-46B8-BE56-CBA53B2C71BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

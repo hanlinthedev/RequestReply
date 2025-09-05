@@ -17,7 +17,9 @@ app.UseHttpsRedirection();
 app.MapPost("/test", async ([FromBody] object req, [FromServices] RabbitMqSvc svc) =>
 {
     var da = await svc.CallAsync(JsonSerializer.Serialize(req), "purchase_q");
-    return Results.Ok(req);
+    var daObj = JsonSerializer.Deserialize<dynamic>(da);
+    Console.WriteLine($"[API] Received response: {da}");
+    return Results.Ok(daObj);
 });
 
 app.Run();
